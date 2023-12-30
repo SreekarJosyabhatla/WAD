@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 12px 24px;
+        border: 1px solid #4f4f4f;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        position: relative;
+        overflow: hidden;
+        font-size: 19px;
+        color: black;
+        z-index: 1;
+      }
+
+      .button:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) scaleY(1) scaleX(1.25);
+        top: 100%;
+        width: 140%;
+        height: 180%;
+        background-color: #4f46e5;
+        border-radius: 50%;
+        display: block;
+        transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+        z-index: -1;
+      }
+
+      .button:after {
+        content: "";
+        position: absolute;
+        left: 55%;
+        transform: translateX(-50%) scaleY(1) scaleX(1.45);
+        top: 180%;
+        width: 160%;
+        height: 190%;
+        background-color: #39bda7;
+        border-radius: 50%;
+        display: block;
+        transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+        z-index: -1;
+      }
+
+      .button:hover {
+        color: #ffffff;
+        border: 1px solid #39bda7;
+      }
+
+      .button:hover:before {
+        top: -35%;
+        background-color: #39bda7;
+        transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+      }
+
+      .button:hover:after {
+        top: -45%;
+        background-color: #39bda7;
+        transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Service 3</h2>
+    <p>
+      One of the cool things about this font generator is that you can choose
+      from more than 20 different styles. That means you can find a unique flair
+      that perfectly fits what you’re trying to say. To use the font generator
+      on a desktop, simply type (or copy/paste) your text into the “Type/paste
+      your text” field, and then select one of the font subsets. Once you click
+      on a subset, you’ll see a drop-down list with previews of each style. Find
+      the one you like, click the “Copy” button on the right, and then
+      right-click or key-shortcut your text anywhere online or offline that
+      allows you to type text. For mobile users on iPhone or Android, it’s even
+      easier. Like desktop, simply type or copy/paste your desired text into the
+      input field, and then choose your subset. Once you decide on the font,
+      click the “Copy” button and the text will automatically save to your
+      clipboard. Then head over to whatever platform you want, paste it in, and
+      blow people’s minds with your fancy text.
+    </p>
+    <button class="button">Get in touch</button>
+  </body>
+</html>
