@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Stars>
+    <star>
+        <id>1</id>
+        <name>Sirius</name>
+        <type>Main Sequence</type>
+        <age>240 million years</age>
+        <distance>8.6 light years</distance>
+        <constellation>Canis Major</constellation>
+    </star>
+    <star>
+        <id>2</id>
+        <name>Alpha Centauri</name>
+        <type>Binary Star System</type>
+        <age>6 billion years</age>
+        <distance>4.37 light years</distance>
+        <constellation>Centaurus</constellation>
+    </star>
+    <star>
+        <id>3</id>
+        <name>Betelgeuse</name>
+        <type>Red Supergiant</type>
+        <age>8-8.5 million years</age>
+        <distance>642.5 light years</distance>
+        <constellation>Orion</constellation>
+    </star>
+    <star>
+        <id>4</id>
+        <name>Proxima Centauri</name>
+        <type>Red Dwarf</type>
+        <age>4.85 billion years</age>
+        <distance>4.24 light years</distance>
+        <constellation>Centaurus</constellation>
+    </star>
+    <star>
+        <id>5</id>
+        <name>Vega</name>
+        <type>Main Sequence</type>
+        <age>455 million years</age>
+        <distance>25.04 light years</distance>
+        <constellation>Lyra</constellation>
+    </star>
+    <star>
+        <id>6</id>
+        <name>Arcturus</name>
+        <type>Giant Star</type>
+        <age>7.1 billion years</age>
+        <distance>36.7 light years</distance>
+        <constellation>Boötes</constellation>
+    </star>
+    <star>
+        <id>7</id>
+        <name>Antares</name>
+        <type>Red Supergiant</type>
+        <age>12 million years</age>
+        <distance>550 light years</distance>
+        <constellation>Scorpius</constellation>
+    </star>
+    <star>
+        <id>8</id>
+        <name>Rigel</name>
+        <type>Blue Supergiant</type>
+        <age>8-9 million years</age>
+        <distance>860 light years</distance>
+        <constellation>Orion</constellation>
+    </star>
+    <star>
+        <id>9</id>
+        <name>Canopus</name>
+        <type>Main Sequence</type>
+        <age>8.8-9.1 billion years</age>
+        <distance>310 light years</distance>
+        <constellation>Carina</constellation>
+    </star>
+    <star>
+        <id>10</id>
+        <name>Altair</name>
+        <type>Main Sequence</type>
+        <age>1.2 billion years</age>
+        <distance>16.7 light years</distance>
+        <constellation>Aquila</constellation>
+    </star>
+    <star>
+        <id>11</id>
+        <name>Deneb</name>
+        <type>Blue Supergiant</type>
+        <age>19 million years</age>
+        <distance>1,425 light years</distance>
+        <constellation>Cygnus</constellation>
+    </star>
+    <star>
+        <id>12</id>
+        <name>Aldebaran</name>
+        <type>Orange Giant</type>
+        <age>6.7 billion years</age>
+        <distance>65.23 light years</distance>
+        <constellation>Taurus</constellation>
+    </star>
+    <star>
+        <id>13</id>
+        <name>Regulus</name>
+        <type>Main Sequence</type>
+        <age>3.5 billion years</age>
+        <distance>79.3 light years</distance>
+        <constellation>Leo</constellation>
+    </star>
+    <star>
+        <id>14</id>
+        <name>Spica</name>
+        <type>B-type Star</type>
+        <age>10 million years</age>
+        <distance>250 light years</distance>
+        <constellation>Virgo</constellation>
+    </star>
+    <star>
+        <id>15</id>
+        <name>Pollux</name>
+        <type>Red Giant</type>
+        <age>724 million years</age>
+        <distance>33.7 light years</distance>
+        <constellation>Gemini</constellation>
+    </star>
+    <star>
+        <id>16</id>
+        <name>Fomalhaut</name>
+        <type>Main Sequence</type>
+        <age>200-300 million years</age>
+        <distance>25.1 light years</distance>
+        <constellation>Piscis Austrinus</constellation>
+    </star>
+    <star>
+        <id>17</id>
+        <name>Castor</name>
+        <type>Main Sequence</type>
+        <age>440 million years</age>
+        <distance>51 light years</distance>
+        <constellation>Gemini</constellation>
+    </star>
+    <star>
+        <id>18</id>
+        <name>Bellatrix</name>
+        <type>Blue Giant</type>
+        <age>25 million years</age>
+        <distance>243 light years</distance>
+        <constellation>Orion</constellation>
+    </star>
+    <star>
+        <id>19</id>
+        <name>Alphard</name>
+        <type>Orange Giant</type>
+        <age>420 million years</age>
+        <distance>177 light years</distance>
+        <constellation>Hydra</constellation>
+    </star>
+    <star>
+        <id>20</id>
+        <name>Sirius B</name>
+        <type>White Dwarf</type>
+        <age>120 million years</age>
+        <distance>8.6 light years</distance>
+        <constellation>Canis Major</constellation>
+    </star>
+        <star>
+        <id>21</id>
+        <name>Capella</name>
+        <type>Multiple Star System</type>
+        <age>~500 million years</age>
+        <distance>42.2 light years</distance>
+        <constellation>Auriga</constellation>
+    </star>
+    <star>
+        <id>22</id>
+        <name>Alnilam</name>
+        <type>Blue Supergiant</type>
+        <age>5.7 million years</age>
+        <distance>1,340 light years</distance>
+        <constellation>Orion</constellation>
+    </star>
+    <star>
+        <id>23</id>
+        <name>Mirach</name>
+        <type>Red Giant</type>
+        <age>~4.7 billion years</age>
+        <distance>199 light years</distance>
+        <constellation>Andromeda</constellation>
+    </star>
+    <star>
+        <id>24</id>
+        <name>Algol</name>
+        <type>Binary Star System</type>
+        <age>~100 million years</age>
+        <distance>93.8 light years</distance>
+        <constellation>Perseus</constellation>
+    </star>
+    <star>
+        <id>25</id>
+        <name>Mizar</name>
+        <type>Multiple Star System</type>
+        <age>~400 million years</age>
+        <distance>78.3 light years</distance>
+        <constellation>Ursa Major</constellation>
+    </star>
+    <star>
+        <id>26</id>
+        <name>Albireo</name>
+        <type>Binary Star System</type>
+        <age>~100 million years</age>
+        <distance>380 light years</distance>
+        <constellation>Cygnus</constellation>
+    </star>
+    <star>
+        <id>27</id>
+        <name>Polaris</name>
+        <type>Main Sequence</type>
+        <age>~70 million years</age>
+        <distance>434 light years</distance>
+        <constellation>Ursa Minor</constellation>
+    </star>
+    <star>
+        <id>28</id>
+        <name>Castor</name>
+        <type>Main Sequence</type>
+        <age>~440 million years</age>
+        <distance>51 light years</distance>
+        <constellation>Gemini</constellation>
+    </star>
+    <star>
+        <id>29</id>
+        <name>Betelgeuse</name>
+        <type>Red Supergiant</type>
+        <age>~8-8.5 million years</age>
+        <distance>642.5 light years</distance>
+        <constellation>Orion</constellation>
+    </star>
+    <star>
+        <id>30</id>
+        <name>Alpheratz</name>
+        <type>Main Sequence</type>
+        <age>~750 million years</age>
+        <distance>97 light years</distance>
+        <constellation>Andromeda</constellation>
+    </star>
+</Stars>
