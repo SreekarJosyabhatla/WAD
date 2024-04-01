@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="taskApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AngularJS Task Manager</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        max-width: 90%;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        width: calc(100% - 70px);
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      button,
+      .task-item {
+        padding: 8px 16px; /* Reduced button padding */
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: white;
+        width: 100%;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .task-item {
+        background-color: #f9f9f9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .task-item input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      .task-item.completed {
+        background-color: #e9ecef;
+      }
+
+      .task-item.completed span {
+        color: #999;
+        text-decoration: line-through;
+      }
+
+      .task-item button {
+        background-color: #dc3545;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+
+      .task-item button:hover {
+        background-color: #c82333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" ng-controller="TaskController">
+      <input type="text" ng-model="newTask" placeholder="Add new task" />
+      <button ng-click="addTask()">Add Task</button>
+
+      <div
+        ng-repeat="task in tasks"
+        class="task-item"
+        ng-class="{ 'completed': task.completed }"
+      >
+        <input
+          type="checkbox"
+          ng-model="task.completed"
+          ng-click="toggleCompleted(task)"
+        />
+        <span>{{ task.name }}</span>
+        <button ng-click="deleteTask(task)">Delete</button>
+      </div>
+    </div>
+
+    <script>
+      var app = angular.module("taskApp", []);
+
+      app.controller("TaskController", function ($scope) {
+        $scope.tasks = [];
+
+        $scope.addTask = function () {
+          if ($scope.newTask.trim() !== "") {
+            $scope.tasks.push({ name: $scope.newTask, completed: false });
+            $scope.newTask = "";
+          }
+        };
+
+        $scope.toggleCompleted = function (task) {
+          task.completed = !task.completed;
+        };
+
+        $scope.deleteTask = function (task) {
+          var index = $scope.tasks.indexOf(task);
+          if (index !== -1) {
+            $scope.tasks.splice(index, 1);
+          }
+        };
+      });
+    </script>
+  </body>
+</html>
